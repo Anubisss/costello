@@ -26,7 +26,7 @@ Just open src/index.html and if you make a change in the source JavaScript files
 
 ## Demo
 * If you want to try out: https://anubisss.github.io/costello
-* Screenshot: http://i.imgur.com/IQyZTz2.png
+* Screenshot: http://i.imgur.com/65X03X7.png
 
 ## License
 The MIT License (MIT)
