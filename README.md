@@ -25,7 +25,8 @@ It will generate src/bundle.js which is the bundled version of the app JavaScrip
 Just open src/index.html and if you make a change in the source JavaScript files then refresh the browser (sorry no hot reload) and you will see the changes.
 
 ## Demo
-If you want to try out: https://anubisss.github.io/costello
+* If you want to try out: https://anubisss.github.io/costello
+* Screenshot: http://i.imgur.com/IQyZTz2.png
 
 ## License
 The MIT License (MIT)
