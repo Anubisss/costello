@@ -100,6 +100,12 @@
   margin-top: 20px;
 }
 
+.costs .pagination li {
+  font-size: 1.2rem;
+  padding: 0 10px;
+  line-height: 30px;
+}
+
 .costs .pagination .active {
   color: #FFFFFF;
 }
