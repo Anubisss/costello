@@ -1,0 +1,154 @@
+.costs .title-costs {
+  font-size: 2.2rem;
+}
+
+.costs .no-costs {
+  margin-left: 10px;
+}
+
+.costs .costs-table {
+  table-layout: fixed;
+}
+
+.costs .costs-table thead tr th,
+.costs .costs-table tbody tr td {
+  word-wrap: break-word;
+}
+
+.costs .costs-table .column-created {
+  width: 20%;
+}
+
+.costs .costs-table .column-cost-name {
+  width: 44%;
+}
+
+.costs .costs-table .column-cost-price {
+  width: 20%;
+}
+
+.costs .costs-table .column-cost-edit-delete,
+.costs .costs-table .column-cost-edit-done-cancel {
+  width: 16%;
+}
+
+.costs .costs-table tbody tr:not(.editing):hover {
+  background-color: #EE6E73;
+  color: #FFFFFF;
+}
+
+.costs .costs-table .edit-delete-buttons .material-icons,
+.costs .costs-table .done-cancel-buttons .material-icons {
+  font-size: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.costs .costs-table .done-cancel-buttons .material-icons {
+  font-size: 24px;
+}
+
+.costs .costs-table tbody tr .edit-delete-buttons a {
+  color: #000000;
+}
+
+.costs .costs-table tbody tr .edit-delete-buttons a:hover {
+  color: #EE6E73;
+}
+
+.costs .costs-table tbody tr:hover .edit-delete-buttons a {
+  color: #FFFFFF;
+}
+
+.costs .costs-table tbody tr:hover .edit-delete-buttons a:hover {
+  color: #000000;
+}
+
+.costs .costs-table .done-cancel-buttons .icon-done {
+  color: #008000;
+}
+
+.costs .costs-table .done-cancel-buttons .icon-cancel {
+  color: #FF0000;
+}
+
+.costs .costs-table tbody tr td .error-message {
+  color: #F44336;
+}
+
+@media only screen and (min-width: 601px) {
+  .costs .costs-table .edit-delete-buttons {
+    visibility: hidden !important;
+  }
+  .costs .costs-table tr:hover .edit-delete-buttons {
+    visibility: visible !important;
+  }
+}
+
+.new-cost .title-new-cost {
+  font-size: 1.6rem;
+}
+
+.new-cost .error-message {
+  color: #F44336;
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.new-cost .new-cost-form {
+  margin-top: 20px;
+}
+
+.costs .pagination .active {
+  color: #FFFFFF;
+}
+
+.costs .pagination .disabled {
+  color: #999999;
+}
+
+.costs .cost-counters li {
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.costs .cost-counters .label {
+  background-color: #EE6E73;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 11px;
+}
+
+footer.page-footer {
+  padding-top: 1px;
+}
+
+footer.page-footer a {
+  border-bottom: 1px #000000 dotted;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+footer.page-footer a:hover {
+  border-bottom: none;
+}
+
+footer.page-footer p {
+  margin: 0;
+  padding: 7px 0;
+  font-weight: 300;
+}
+
+footer.page-footer .footer-copyright {
+  height: auto;
+  line-height: 20px;
+  overflow: visible;
+  padding-top: 5px;
+}
+
+footer.page-footer .footer-copyright .where-is-the-source-code {
+  padding-bottom: 3px;
+}
