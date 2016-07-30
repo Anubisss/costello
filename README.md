@@ -7,6 +7,9 @@ The build system is provided by [Gulp](http://gulpjs.com/).
 
 *Note: the app is tested with only Google Chrome Version 52.0.2743.82 (64-bit).*
 
+## Components visualization
+![React components](components-visualization.png)
+
 ## Install & development
 If you want to build the app just follow these steps.
 
